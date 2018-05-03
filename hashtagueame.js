@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
 })
 
 
-app.listen(function, 80 () {
+app.listen(80, function () {
   console.log('Example app listening on port 1234!')
 })
 
