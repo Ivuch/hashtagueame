@@ -1,0 +1,228 @@
+/***   mobile.css     ***/
+/***   MOBILE FIRST   ***/
+[class*="col-"] {
+    width: 100%;
+}
+
+body{
+	margin: 0;
+	background-color: #FFFFFF;
+}
+
+header{
+	position: fixed;
+	z-index: 1;
+	height: 67px;
+	background-color: #FFFFFF;
+	color: black;
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	font-size:180%;
+	background: #fff url(/images/logo.png) center no-repeat;
+	border-bottom: 1px solid black;
+	background-size: 25% 50%;
+	-webkit-box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.75);
+}
+#logo{
+	display: inline-block;
+	color: rgb(27, 27, 27);
+	cursor: pointer;
+	font-family: "Cabin",arial,sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 26.4px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	position: relative;
+    right: 16%;
+    top: 18%;
+}
+#info{
+	display: none;
+}
+
+#content{
+	padding-top:55px;
+}
+
+.imgPrincipal{
+	background: url(../images/0Home/Hashtagueame.jpg) no-repeat fixed;
+    height: auto; 
+    width: 100%; 
+    margin: -432px 0 0 0px;
+}
+
+#imgPrincipal{
+	display: inline-block;
+}
+
+h3{
+	color: #67156e;
+	margin-top:0;
+	font-size: 160%;
+}
+footer{
+	background-color: #FFFFFF;
+	height: 100%;
+	overflow-y: ;
+}
+img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding:0;
+    /*border: 1px solid red;*/
+}
+.contact img{
+	width: 7%;
+    height: auto;
+    display: inline-block;
+}
+.contact p{
+	display: inline-block;
+	overflow: hidden;
+    font-family: 'Cabin', sans-serif;
+    font-size: 64%;
+}
+.inputs{
+	display:block;
+	margin: 5px; 
+	width: 90%; 
+	padding:5px;
+}
+textarea{
+	height: 284px;
+}
+#enviar{
+	background-color: #67156e;
+	border: none;
+    color: white;
+    float: right;
+    margin: 8px 40px 0 0;
+    height: 30px;
+    width: 30%;
+    text-decoration: none;
+    text-align: center;
+}
+.boton{
+	background-color: #67156e;
+    border: medium none;
+    color: white;
+    float: left;
+    height: 30px;
+    margin: 25px 0 0 389px;
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+}
+.h1{
+	color: rgb(255, 255, 255);
+	font-family: "Cabin",arial,sans-serif;
+	font-size: 280%;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 48px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 15px;
+	position: relative;
+	text-align: center;
+	word-break: keep-all;
+	word-wrap: normal;
+}
+
+.button1{
+	position: relative;
+    right: -578px;
+    top: -198px;
+    background-color: rgb(103, 21, 110);
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-top-style: none;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	font-family: "Lato",arial,sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1.6px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	text-align: center;
+	text-decoration: none;
+	text-decoration-color: rgb(255, 255, 255);
+	text-decoration-line: none;
+	text-decoration-style: solid;
+	text-transform: uppercase;
+	transition-delay: 0s;
+	transition-duration: 0.3s;
+	transition-propertybackground-colortransition-timing-function: ease-in-out;
+	width: 157.8px;
+}
+
+.msgBox{
+	margin: 0 10px 10px 10px;
+	height: 358px;
+	background-color: white;
+	font-family: 'Cabin', sans-serif;
+	padding: 20px 0 10px 20px;
+	line-height: 115%;
+}
+.msgBox p{
+	font-family: 'Cabin', sans-serif;
+	font-size: 90%;
+}
+.box{
+	margin:  0 10px 10px 10px;
+}
+.box-2{
+	margin:  65px 10px 10px 0;
+	padding: 20px;
+	border-top: 2px dotted gray;
+}
+.textLvl2{
+	color: rgb(27, 27, 27);
+	font-family: "Lato",arial,sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 27.5px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	text-align: center;
+
+}
+.textLvl4{
+	color: rgb(94, 94, 94);
+	font-family: "Lato",arial,sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 24px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.error{
+	border: 1px solid red; 
+}
+/***   MOBILE FIRST   ***/

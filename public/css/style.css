@@ -1,0 +1,27 @@
+* {box-sizing: border-box;}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+
+/***** FONTS *****/
+@font-face{
+    font-family: gotMedium;
+    src: url(fonts/GothamRounded-Medium.otf);
+}
+
+@font-face{
+    font-family: gotLight;
+    src: url(fonts/GothamRounded-Light.otf);
+}
+
+@font-face{
+	font-family: officinaSansStd;
+	src: url(fonts/OfficinaSansStd-Bold.otf);
+}
+/***** FONTS *****/

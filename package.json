@@ -1,0 +1,24 @@
+{
+  "name": "hashtagueame",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivuch/hashtagueame.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ivuch/hashtagueame/issues"
+  },
+  "homepage": "https://github.com/Ivuch/hashtagueame#readme",
+  "description": ""
+}
